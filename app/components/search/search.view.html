@@ -1,0 +1,36 @@
+<section style="height: 350px;
+                background-color: peru;
+                padding: 20px">
+    <div style="height: 100%;
+                width: 45%;
+                display: inline-block;">
+        <h2>
+            Busqueda
+        </h2>
+        <label>Identificación: <input type="text" ng-model="$ctrl.id"></label>
+        <br>
+        <button ng-click="$ctrl.getCharacter()">
+            Buscar
+        </button>
+        <br><br><br><br><br><br><br>
+
+    </div>
+    <div style="height: 100%;
+                width: 45%;
+                display: inline-block;">
+        <h1>
+            {{$ctrl.name}}
+        </h1>
+        <p> Especie : </p>
+        <p>{{$ctrl.specie}}</p>
+        <p> Subespecie : </p>
+        <p>{{$ctrl.type}}</p>
+        <p> Episodios en los que aparece : </p>
+        <p>{{$ctrl.episode}}</p>
+        <p> Ubicación : </p>
+        <p>{{$ctrl.location}}</p>
+        <img src="">
+    </div>
+
+
+</section>

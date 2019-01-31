@@ -1,2 +1,1 @@
-# TestAngularJS
-Prueba
+This is a blank project of Angular for test knowledges.
